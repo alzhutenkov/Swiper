@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA4037A1998A15100BCFE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA403791998A15100BCFE3D /* Foundation.framework */; };
+		CDA4037C1998A15100BCFE3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA4037B1998A15100BCFE3D /* CoreGraphics.framework */; };
+		CDA4037E1998A15100BCFE3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA4037D1998A15100BCFE3D /* UIKit.framework */; };
+		CDA403841998A15100BCFE3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA403821998A15100BCFE3D /* InfoPlist.strings */; };
+		CDA403861998A15100BCFE3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA403851998A15100BCFE3D /* main.m */; };
+		CDA4038A1998A15100BCFE3D /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA403891998A15100BCFE3D /* SGAppDelegate.m */; };
+		CDA4038D1998A15100BCFE3D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA4038B1998A15100BCFE3D /* Main_iPhone.storyboard */; };
+		CDA403901998A15100BCFE3D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA4038E1998A15100BCFE3D /* Main_iPad.storyboard */; };
+		CDA403931998A15100BCFE3D /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA403921998A15100BCFE3D /* SGViewController.m */; };
+		CDA403951998A15100BCFE3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA403941998A15100BCFE3D /* Images.xcassets */; };
+		CDA4039C1998A15100BCFE3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA4039B1998A15100BCFE3D /* XCTest.framework */; };
+		CDA4039D1998A15100BCFE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA403791998A15100BCFE3D /* Foundation.framework */; };
+		CDA4039E1998A15100BCFE3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA4037D1998A15100BCFE3D /* UIKit.framework */; };
+		CDA403A61998A15100BCFE3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA403A41998A15100BCFE3D /* InfoPlist.strings */; };
+		CDA403A81998A15100BCFE3D /* SwiperGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA403A71998A15100BCFE3D /* SwiperGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA4039F1998A15100BCFE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA4036E1998A15100BCFE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA403751998A15100BCFE3D;
+			remoteInfo = SwiperGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA403761998A15100BCFE3D /* SwiperGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiperGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA403791998A15100BCFE3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDA4037B1998A15100BCFE3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDA4037D1998A15100BCFE3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDA403811998A15100BCFE3D /* SwiperGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiperGame-Info.plist"; sourceTree = "<group>"; };
+		CDA403831998A15100BCFE3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDA403851998A15100BCFE3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDA403871998A15100BCFE3D /* SwiperGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiperGame-Prefix.pch"; sourceTree = "<group>"; };
+		CDA403881998A15100BCFE3D /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		CDA403891998A15100BCFE3D /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		CDA4038C1998A15100BCFE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CDA4038F1998A15100BCFE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CDA403911998A15100BCFE3D /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		CDA403921998A15100BCFE3D /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		CDA403941998A15100BCFE3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDA4039A1998A15100BCFE3D /* SwiperGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiperGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA4039B1998A15100BCFE3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDA403A31998A15100BCFE3D /* SwiperGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiperGameTests-Info.plist"; sourceTree = "<group>"; };
+		CDA403A51998A15100BCFE3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDA403A71998A15100BCFE3D /* SwiperGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA403731998A15100BCFE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA4037C1998A15100BCFE3D /* CoreGraphics.framework in Frameworks */,
+				CDA4037E1998A15100BCFE3D /* UIKit.framework in Frameworks */,
+				CDA4037A1998A15100BCFE3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA403971998A15100BCFE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA4039C1998A15100BCFE3D /* XCTest.framework in Frameworks */,
+				CDA4039E1998A15100BCFE3D /* UIKit.framework in Frameworks */,
+				CDA4039D1998A15100BCFE3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA4036D1998A15100BCFE3D = {
+			isa = PBXGroup;
+			children = (
+				CDA4037F1998A15100BCFE3D /* SwiperGame */,
+				CDA403A11998A15100BCFE3D /* SwiperGameTests */,
+				CDA403781998A15100BCFE3D /* Frameworks */,
+				CDA403771998A15100BCFE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA403771998A15100BCFE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403761998A15100BCFE3D /* SwiperGame.app */,
+				CDA4039A1998A15100BCFE3D /* SwiperGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA403781998A15100BCFE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403791998A15100BCFE3D /* Foundation.framework */,
+				CDA4037B1998A15100BCFE3D /* CoreGraphics.framework */,
+				CDA4037D1998A15100BCFE3D /* UIKit.framework */,
+				CDA4039B1998A15100BCFE3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA4037F1998A15100BCFE3D /* SwiperGame */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403881998A15100BCFE3D /* SGAppDelegate.h */,
+				CDA403891998A15100BCFE3D /* SGAppDelegate.m */,
+				CDA4038B1998A15100BCFE3D /* Main_iPhone.storyboard */,
+				CDA4038E1998A15100BCFE3D /* Main_iPad.storyboard */,
+				CDA403911998A15100BCFE3D /* SGViewController.h */,
+				CDA403921998A15100BCFE3D /* SGViewController.m */,
+				CDA403941998A15100BCFE3D /* Images.xcassets */,
+				CDA403801998A15100BCFE3D /* Supporting Files */,
+			);
+			path = SwiperGame;
+			sourceTree = "<group>";
+		};
+		CDA403801998A15100BCFE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403811998A15100BCFE3D /* SwiperGame-Info.plist */,
+				CDA403821998A15100BCFE3D /* InfoPlist.strings */,
+				CDA403851998A15100BCFE3D /* main.m */,
+				CDA403871998A15100BCFE3D /* SwiperGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA403A11998A15100BCFE3D /* SwiperGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403A71998A15100BCFE3D /* SwiperGameTests.m */,
+				CDA403A21998A15100BCFE3D /* Supporting Files */,
+			);
+			path = SwiperGameTests;
+			sourceTree = "<group>";
+		};
+		CDA403A21998A15100BCFE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA403A31998A15100BCFE3D /* SwiperGameTests-Info.plist */,
+				CDA403A41998A15100BCFE3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA403751998A15100BCFE3D /* SwiperGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA403AB1998A15100BCFE3D /* Build configuration list for PBXNativeTarget "SwiperGame" */;
+			buildPhases = (
+				CDA403721998A15100BCFE3D /* Sources */,
+				CDA403731998A15100BCFE3D /* Frameworks */,
+				CDA403741998A15100BCFE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiperGame;
+			productName = SwiperGame;
+			productReference = CDA403761998A15100BCFE3D /* SwiperGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA403991998A15100BCFE3D /* SwiperGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA403AE1998A15100BCFE3D /* Build configuration list for PBXNativeTarget "SwiperGameTests" */;
+			buildPhases = (
+				CDA403961998A15100BCFE3D /* Sources */,
+				CDA403971998A15100BCFE3D /* Frameworks */,
+				CDA403981998A15100BCFE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA403A01998A15100BCFE3D /* PBXTargetDependency */,
+			);
+			name = SwiperGameTests;
+			productName = SwiperGameTests;
+			productReference = CDA4039A1998A15100BCFE3D /* SwiperGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA4036E1998A15100BCFE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZhutenkovAlexei;
+				TargetAttributes = {
+					CDA403991998A15100BCFE3D = {
+						TestTargetID = CDA403751998A15100BCFE3D;
+					};
+				};
+			};
+			buildConfigurationList = CDA403711998A15100BCFE3D /* Build configuration list for PBXProject "SwiperGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA4036D1998A15100BCFE3D;
+			productRefGroup = CDA403771998A15100BCFE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA403751998A15100BCFE3D /* SwiperGame */,
+				CDA403991998A15100BCFE3D /* SwiperGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA403741998A15100BCFE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA403901998A15100BCFE3D /* Main_iPad.storyboard in Resources */,
+				CDA403951998A15100BCFE3D /* Images.xcassets in Resources */,
+				CDA4038D1998A15100BCFE3D /* Main_iPhone.storyboard in Resources */,
+				CDA403841998A15100BCFE3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA403981998A15100BCFE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA403A61998A15100BCFE3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA403721998A15100BCFE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA4038A1998A15100BCFE3D /* SGAppDelegate.m in Sources */,
+				CDA403931998A15100BCFE3D /* SGViewController.m in Sources */,
+				CDA403861998A15100BCFE3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA403961998A15100BCFE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA403A81998A15100BCFE3D /* SwiperGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA403A01998A15100BCFE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA403751998A15100BCFE3D /* SwiperGame */;
+			targetProxy = CDA4039F1998A15100BCFE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA403821998A15100BCFE3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA403831998A15100BCFE3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDA4038B1998A15100BCFE3D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA4038C1998A15100BCFE3D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA4038E1998A15100BCFE3D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA4038F1998A15100BCFE3D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA403A41998A15100BCFE3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA403A51998A15100BCFE3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA403A91998A15100BCFE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA403AA1998A15100BCFE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA403AC1998A15100BCFE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiperGame/SwiperGame-Prefix.pch";
+				INFOPLIST_FILE = "SwiperGame/SwiperGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDA403AD1998A15100BCFE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiperGame/SwiperGame-Prefix.pch";
+				INFOPLIST_FILE = "SwiperGame/SwiperGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDA403AF1998A15100BCFE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiperGame.app/SwiperGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiperGame/SwiperGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiperGameTests/SwiperGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDA403B01998A15100BCFE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiperGame.app/SwiperGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwiperGame/SwiperGame-Prefix.pch";
+				INFOPLIST_FILE = "SwiperGameTests/SwiperGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA403711998A15100BCFE3D /* Build configuration list for PBXProject "SwiperGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA403A91998A15100BCFE3D /* Debug */,
+				CDA403AA1998A15100BCFE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA403AB1998A15100BCFE3D /* Build configuration list for PBXNativeTarget "SwiperGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA403AC1998A15100BCFE3D /* Debug */,
+				CDA403AD1998A15100BCFE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDA403AE1998A15100BCFE3D /* Build configuration list for PBXNativeTarget "SwiperGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA403AF1998A15100BCFE3D /* Debug */,
+				CDA403B01998A15100BCFE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA4036E1998A15100BCFE3D /* Project object */;
+}
